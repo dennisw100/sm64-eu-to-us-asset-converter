@@ -1,5 +1,5 @@
 # sm64-eu-to-us-asset-converter
-This is a script to convert the assets of the Super Mario 64 EU version into the US once, this project was Vibecoded with opencode Big Pickle, I have still looked over the code but I'm not really a programmer so take that as is. If your wondering why not local model cause I couldn't figure out how I get that to work in opencode. This was manly used for my private use but I could see other people who only have the EU copy and wanting to play US romhacks to get use out of this.
+This is a script to convert the assets of the Super Mario 64 EU version into the US once, this project was Vibecoded with opencode Big Pickle, I have still looked over the code but I'm not really a programmer so take that as is. If your wondering why not local model cause I couldn't figure out how I get that to work in opencode. This was manly made for my private use but I could see other people who only have the EU copy and wanting to play US romhacks to get use out of this.
 
 This script requires Python
 
