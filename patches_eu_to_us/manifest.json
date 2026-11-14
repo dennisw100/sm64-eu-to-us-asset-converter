@@ -1,1 +1,940 @@
-a
+{
+ "version": 1,
+ "direction": "eu_to_us",
+ "path_map": {
+  "sound/sequences/eu/": "sound/sequences/us/",
+  "levels/ending/cake_eu.png": "levels/ending/cake.png",
+  "levels/intro/2_eu_copyright.rgba16.png": "levels/intro/2_copyright.rgba16.png",
+  "levels/intro/3_eu_tm.rgba16.png": "levels/intro/3_tm.rgba16.png",
+  "levels/menu/main_menu_seg7_eu.0AF80.ia8.png": "levels/menu/main_menu_seg7_us.0AF80.ia8.png",
+  "levels/menu/main_menu_seg7_eu.0B640.ia8.png": "levels/menu/main_menu_seg7_us.0B640.ia8.png",
+  "levels/menu/main_menu_seg7_eu.0B680.ia8.png": "levels/menu/main_menu_seg7_us.0B680.ia8.png",
+  "levels/menu/main_menu_seg7_eu.0BDA0.rgba16.png": "levels/menu/main_menu_seg7.0D1A8.rgba16.png",
+  "levels/menu/main_menu_seg7_eu.0EDA0.rgba16.png": "levels/menu/main_menu_seg7.0E1A8.rgba16.png",
+  "textures/segment2/font_graphics.05F00.ia1.png": "textures/segment2/font_graphics.05900.ia4.png",
+  "textures/segment2/font_graphics.05F10.ia1.png": "textures/segment2/font_graphics.05940.ia4.png",
+  "textures/segment2/font_graphics.05F20.ia1.png": "textures/segment2/font_graphics.05980.ia4.png",
+  "textures/segment2/font_graphics.05F30.ia1.png": "textures/segment2/font_graphics.059C0.ia4.png",
+  "textures/segment2/font_graphics.05F40.ia1.png": "textures/segment2/font_graphics.05A00.ia4.png",
+  "textures/segment2/font_graphics.05F50.ia1.png": "textures/segment2/font_graphics.05A40.ia4.png",
+  "textures/segment2/font_graphics.05F60.ia1.png": "textures/segment2/font_graphics.05A80.ia4.png",
+  "textures/segment2/font_graphics.05F70.ia1.png": "textures/segment2/font_graphics.05AC0.ia4.png",
+  "textures/segment2/font_graphics.05F80.ia1.png": "textures/segment2/font_graphics.05B00.ia4.png",
+  "textures/segment2/font_graphics.05F90.ia1.png": "textures/segment2/font_graphics.05B40.ia4.png",
+  "textures/segment2/font_graphics.05FA0.ia1.png": "textures/segment2/font_graphics.05B80.ia4.png",
+  "textures/segment2/font_graphics.05FB0.ia1.png": "textures/segment2/font_graphics.05BC0.ia4.png",
+  "textures/segment2/font_graphics.05FC0.ia1.png": "textures/segment2/font_graphics.05C00.ia4.png",
+  "textures/segment2/font_graphics.05FD0.ia1.png": "textures/segment2/font_graphics.05C40.ia4.png",
+  "textures/segment2/font_graphics.05FE0.ia1.png": "textures/segment2/font_graphics.05C80.ia4.png",
+  "textures/segment2/font_graphics.05FF0.ia1.png": "textures/segment2/font_graphics.05CC0.ia4.png",
+  "textures/segment2/font_graphics.06000.ia1.png": "textures/segment2/font_graphics.05D00.ia4.png",
+  "textures/segment2/font_graphics.06010.ia1.png": "textures/segment2/font_graphics.05D40.ia4.png",
+  "textures/segment2/font_graphics.06020.ia1.png": "textures/segment2/font_graphics.05D80.ia4.png",
+  "textures/segment2/font_graphics.06030.ia1.png": "textures/segment2/font_graphics.05DC0.ia4.png",
+  "textures/segment2/font_graphics.06040.ia1.png": "textures/segment2/font_graphics.05E00.ia4.png",
+  "textures/segment2/font_graphics.06050.ia1.png": "textures/segment2/font_graphics.05E40.ia4.png",
+  "textures/segment2/font_graphics.06060.ia1.png": "textures/segment2/font_graphics.05E80.ia4.png",
+  "textures/segment2/font_graphics.06070.ia1.png": "textures/segment2/font_graphics.05EC0.ia4.png",
+  "textures/segment2/font_graphics.06080.ia1.png": "textures/segment2/font_graphics.05F00.ia4.png",
+  "textures/segment2/font_graphics.06090.ia1.png": "textures/segment2/font_graphics.05F40.ia4.png",
+  "textures/segment2/font_graphics.060A0.ia1.png": "textures/segment2/font_graphics.05F80.ia4.png",
+  "textures/segment2/font_graphics.060B0.ia1.png": "textures/segment2/font_graphics.05FC0.ia4.png",
+  "textures/segment2/font_graphics.060C0.ia1.png": "textures/segment2/font_graphics.06000.ia4.png",
+  "textures/segment2/font_graphics.060D0.ia1.png": "textures/segment2/font_graphics.06040.ia4.png",
+  "textures/segment2/font_graphics.060E0.ia1.png": "textures/segment2/font_graphics.06080.ia4.png",
+  "textures/segment2/font_graphics.060F0.ia1.png": "textures/segment2/font_graphics.060C0.ia4.png",
+  "textures/segment2/font_graphics.06100.ia1.png": "textures/segment2/font_graphics.06100.ia4.png",
+  "textures/segment2/font_graphics.06110.ia1.png": "textures/segment2/font_graphics.06140.ia4.png",
+  "textures/segment2/font_graphics.06120.ia1.png": "textures/segment2/font_graphics.06180.ia4.png",
+  "textures/segment2/font_graphics.06130.ia1.png": "textures/segment2/font_graphics.061C0.ia4.png",
+  "textures/segment2/font_graphics.06140.ia1.png": "textures/segment2/font_graphics.06200.ia4.png",
+  "textures/segment2/font_graphics.06150.ia1.png": "textures/segment2/font_graphics.06240.ia4.png",
+  "textures/segment2/font_graphics.06160.ia1.png": "textures/segment2/font_graphics.06280.ia4.png",
+  "textures/segment2/font_graphics.06170.ia1.png": "textures/segment2/font_graphics.062C0.ia4.png",
+  "textures/segment2/font_graphics.06180.ia1.png": "textures/segment2/font_graphics.06300.ia4.png",
+  "textures/segment2/font_graphics.06190.ia1.png": "textures/segment2/font_graphics.06340.ia4.png",
+  "textures/segment2/font_graphics.061A0.ia1.png": "textures/segment2/font_graphics.06380.ia4.png",
+  "textures/segment2/font_graphics.061B0.ia1.png": "textures/segment2/font_graphics.063C0.ia4.png",
+  "textures/segment2/font_graphics.061C0.ia1.png": "textures/segment2/font_graphics.06400.ia4.png",
+  "textures/segment2/font_graphics.061D0.ia1.png": "textures/segment2/font_graphics.06440.ia4.png",
+  "textures/segment2/font_graphics.061E0.ia1.png": "textures/segment2/font_graphics.06480.ia4.png",
+  "textures/segment2/font_graphics.061F0.ia1.png": "textures/segment2/font_graphics.064C0.ia4.png",
+  "textures/segment2/font_graphics.06200.ia1.png": "textures/segment2/font_graphics.06500.ia4.png",
+  "textures/segment2/font_graphics.06210.ia1.png": "textures/segment2/font_graphics.06540.ia4.png",
+  "textures/segment2/font_graphics.06220.ia1.png": "textures/segment2/font_graphics.06580.ia4.png",
+  "textures/segment2/font_graphics.06230.ia1.png": "textures/segment2/font_graphics.065C0.ia4.png",
+  "textures/segment2/font_graphics.06240.ia1.png": "textures/segment2/font_graphics.06600.ia4.png",
+  "textures/segment2/font_graphics.06250.ia1.png": "textures/segment2/font_graphics.06640.ia4.png",
+  "textures/segment2/font_graphics.06260.ia1.png": "textures/segment2/font_graphics.06680.ia4.png",
+  "textures/segment2/font_graphics.06270.ia1.png": "textures/segment2/font_graphics.066C0.ia4.png",
+  "textures/segment2/font_graphics.06280.ia1.png": "textures/segment2/font_graphics.06700.ia4.png",
+  "textures/segment2/font_graphics.06290.ia1.png": "textures/segment2/font_graphics.06740.ia4.png",
+  "textures/segment2/font_graphics.062A0.ia1.png": "textures/segment2/font_graphics.06780.ia4.png",
+  "textures/segment2/font_graphics.062B0.ia1.png": "textures/segment2/font_graphics.067C0.ia4.png",
+  "textures/segment2/font_graphics.062C0.ia1.png": "textures/segment2/font_graphics.06800.ia4.png",
+  "textures/segment2/font_graphics.062D0.ia1.png": "textures/segment2/font_graphics.06840.ia4.png",
+  "textures/segment2/font_graphics.062E0.ia1.png": "textures/segment2/font_graphics.06880.ia4.png",
+  "textures/segment2/font_graphics.06300.ia1.png": "textures/segment2/font_graphics.068C0.ia4.png",
+  "textures/segment2/font_graphics.06310.ia1.png": "textures/segment2/font_graphics.06900.ia4.png",
+  "textures/segment2/font_graphics.06320.ia1.png": "textures/segment2/font_graphics.06940.ia4.png",
+  "textures/segment2/font_graphics.06330.ia1.png": "textures/segment2/font_graphics.06980.ia4.png",
+  "textures/segment2/font_graphics.06340.ia1.png": "textures/segment2/font_graphics.069C0.ia4.png",
+  "textures/segment2/font_graphics.06350.ia1.png": "textures/segment2/font_graphics.06A00.ia4.png",
+  "textures/segment2/font_graphics.06360.ia1.png": "textures/segment2/font_graphics.06A40.ia4.png",
+  "textures/segment2/font_graphics.06370.ia1.png": "textures/segment2/font_graphics.06A80.ia4.png",
+  "textures/segment2/font_graphics.06380.ia1.png": "textures/segment2/font_graphics.06AC0.ia4.png",
+  "textures/segment2/font_graphics.06390.ia1.png": "textures/segment2/font_graphics.06B00.ia4.png",
+  "textures/segment2/font_graphics.063A0.ia1.png": "textures/segment2/font_graphics.06B40.ia4.png",
+  "textures/segment2/font_graphics.063B0.ia1.png": "textures/segment2/font_graphics.06B80.ia4.png",
+  "textures/segment2/font_graphics.063C0.ia1.png": "textures/segment2/font_graphics.06BC0.ia4.png",
+  "textures/segment2/font_graphics.063D0.ia1.png": "textures/segment2/font_graphics.06C00.ia4.png",
+  "textures/segment2/font_graphics.063E0.ia1.png": "textures/segment2/font_graphics.06C40.ia4.png",
+  "textures/segment2/font_graphics.063F0.ia1.png": "textures/segment2/font_graphics.06C80.ia4.png",
+  "textures/segment2/font_graphics.06400.ia1.png": "textures/segment2/font_graphics.06CC0.ia4.png",
+  "textures/segment2/font_graphics.06410.ia1.png": "textures/segment2/font_graphics.06D00.ia4.png",
+  "textures/segment2/font_graphics.06420.ia1.png": "textures/segment2/font_graphics.06D40.ia4.png",
+  "textures/segment2/font_graphics.062F0.ia1.png": "textures/segment2/font_graphics.06D80.ia4.png",
+  "textures/segment2/font_graphics.06430.ia1.png": "textures/segment2/font_graphics.06DC0.ia4.png",
+  "textures/segment2/font_graphics.06440.ia1.png": "textures/segment2/font_graphics.06E00.ia4.png",
+  "textures/segment2/font_graphics.06450.ia1.png": "textures/segment2/font_graphics.06E40.ia4.png",
+  "textures/segment2/font_graphics.06460.ia1.png": "textures/segment2/font_graphics.06E80.ia4.png",
+  "textures/segment2/font_graphics.06470.ia1.png": "textures/segment2/font_graphics.06EC0.ia4.png",
+  "textures/segment2/font_graphics.06480.ia1.png": "textures/segment2/font_graphics.06F00.ia4.png",
+  "textures/segment2/font_graphics.06490.ia1.png": "textures/segment2/font_graphics.06F40.ia4.png",
+  "textures/segment2/font_graphics.064A0.ia1.png": "textures/segment2/font_graphics.06F80.ia4.png",
+  "textures/segment2/font_graphics.064B0.ia1.png": "textures/segment2/font_graphics.06FC0.ia4.png"
+ },
+ "files": [
+  {
+   "name": "sound/sequences/eu/01_cutscene_collect_star.m64",
+   "base_sha256": "9b3b7f511e40dcbc8cd3f7ba99f7e8c469e13eabf37579bb8e9941f3e417f3e5",
+   "target_sha256": "7b3c3e086e6f6ef5d78d7ac04c9e747d351e755658b925eb854c309f97eab939",
+   "patch": "files/01_cutscene_collect_star.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/02_menu_title_screen.m64",
+   "base_sha256": "1c28f62048909d1f1b2c182d2f597c3cf765648f2805400f9ca21dc99f168015",
+   "target_sha256": "fb480eb6abe520325533ae42a60adf1f10eb41f2510856dd628fd792e694825d",
+   "patch": "files/02_menu_title_screen.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/03_level_grass.m64",
+   "base_sha256": "87890885ad6af44209eaf015c6ffc455a541a3434c922710bf6b0f076a5771bc",
+   "target_sha256": "341916d03f14762c5b49263741150baee9a7a778a5d40bf418f4ff84525a9b08",
+   "patch": "files/03_level_grass.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/04_level_inside_castle.m64",
+   "base_sha256": "ff687ea6bd10cb409cb56bce80ba292cbd32c9c4e9ed5681374e2782f77f847e",
+   "target_sha256": "529adbc40038ebc210ee7f4d0e7c4a88bd563c02a422e27f4c200ff5887ef45c",
+   "patch": "files/04_level_inside_castle.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/05_level_water.m64",
+   "base_sha256": "b43e3a418dfb216f0f5a971a6639fc4bdbc0352e75011d4f36bb313ed57ffae6",
+   "target_sha256": "accf506d213d0737ee6e4bfe8cb119ca73bc185c102d95bb44641c4942ca5541",
+   "patch": "files/05_level_water.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/06_level_hot.m64",
+   "base_sha256": "9666f4929d94ee0ca29951180bf5a691cb27cc778167860be7c5cae23b6c475e",
+   "target_sha256": "f1b53a7c9f74cb3799628d0842f1d7c53410bae907920b8d728415fa9f676603",
+   "patch": "files/06_level_hot.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/07_level_boss_koopa.m64",
+   "base_sha256": "9c94285920dcaed54330ae8ff685317165fcc58d55ffd19164ea7a96fc7fd372",
+   "target_sha256": "7991001cd9d3a4e9c565daff5e3829f1fd0dd067c2f6e2bcf478181fa154404b",
+   "patch": "files/07_level_boss_koopa.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/08_level_snow.m64",
+   "base_sha256": "0d9dbefa86a6ebf1ddbbd85e0c37572d1fd1c2def69be686c4ddfec3c07f5613",
+   "target_sha256": "f02c81ed8045efb2ee15abb150a052d6140049abe2265ccd19ab529b4ce15070",
+   "patch": "files/08_level_snow.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/09_level_slide.m64",
+   "base_sha256": "5f67e194b4f4f0d79e23c60df030d227e5a5c3e2942bf168577d75408224d611",
+   "target_sha256": "9b55d3fa7929c52994966d760d135abcc0fb0f42a3db2f23a7c5f47cc7991552",
+   "patch": "files/09_level_slide.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/0A_level_spooky.m64",
+   "base_sha256": "ab44c73a8354b4304881e9aa66bf0c77928cfa0b6b5acd17bd768c7ba5b6f110",
+   "target_sha256": "085b412191ce18ab315ab66d17d25a69ee928861f3228cf019b47f1082b992ae",
+   "patch": "files/0A_level_spooky.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/0B_event_piranha_plant.m64",
+   "base_sha256": "6ab9d8410bd4942c94ab9fd8e1af64bfa8503e35e236aa7e224cf3b9f08d34f4",
+   "target_sha256": "83e434ca1707355a1282ec0949917378b0e0ffe7a6955515303d2ee85988b3ad",
+   "patch": "files/0B_event_piranha_plant.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/0C_level_underground.m64",
+   "base_sha256": "b4173adbaec4daea088dfb739dd23821c256173418734c1dd6dc6becd7c55506",
+   "target_sha256": "9b9ebb7470b5cab81fa309c1fabc1da7aeb60ceae0d4641478ac2fea76276f4d",
+   "patch": "files/0C_level_underground.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/0D_menu_star_select.m64",
+   "base_sha256": "adf9a99e3345982fbd8ef02e7677242d9c3e9098b1e870d158e0304cb4bb3613",
+   "target_sha256": "dce2da3c2d8c2364598e8b4865d01fd186c916dd80abaa7f8e26f2b252506939",
+   "patch": "files/0D_menu_star_select.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/0E_event_powerup.m64",
+   "base_sha256": "d30fe31fb8b0fca3c3169207448efbc01378fb412bfe512289a1d063d0bab523",
+   "target_sha256": "87cdce6d85c5a3724b1ca14e6faa4cb4e872226a434e91c7593ea2d70799079d",
+   "patch": "files/0E_event_powerup.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/0F_event_metal_cap.m64",
+   "base_sha256": "6eb78d74403105bf68c7e091cd7805cbc39f7bfeb586b5e957f8062911bae21e",
+   "target_sha256": "b6a9baf4a2be766c1206003cad8f2c93dbaaa90e30f2048ae747cc0e2761cd45",
+   "patch": "files/0F_event_metal_cap.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/10_event_koopa_message.m64",
+   "base_sha256": "90c6197934028fd109c3611c5b08eafbd573e6f0f2e96afc8fb9e5579a17d5c6",
+   "target_sha256": "eabb91dc3d30a836ec6c877bebed0c66632dd9653a4b10e7603e41e6ef035ae4",
+   "patch": "files/10_event_koopa_message.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/11_level_koopa_road.m64",
+   "base_sha256": "291b7e30961d8809933e692297084fddc855fed7382b9e436cccc0dd2e228736",
+   "target_sha256": "67030440bc18d3e4b305c966998151973fcd1eefb4e54fcff75bcbde450f939a",
+   "patch": "files/11_level_koopa_road.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/12_event_high_score.m64",
+   "base_sha256": "275f9fab0c6732d00a9d6e66a1a0ee8dfab58fead0f2670d9c602e572e999dab",
+   "target_sha256": "2e0170f20353d6ba772af9df92f2d53e8b8d807e2b5bca24ac87bc022f08fade",
+   "patch": "files/12_event_high_score.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/13_event_merry_go_round.m64",
+   "base_sha256": "0a3368d6f821ae693fb414179362079da35fccd6c1edb0ee0d4ec662b0d6bbdd",
+   "target_sha256": "eb557beb7c235412452104af5442323d0bc6dcd0bc82067a2991c4140c622ca3",
+   "patch": "files/13_event_merry_go_round.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/14_event_race.m64",
+   "base_sha256": "a8e0b63af3d8d47afa51ef26aa90b4ea0b55fc3f67774a3b6298580487435f5b",
+   "target_sha256": "81d78cca64304df1d46d22254a9a441028b38422b7bb6417e7b2c3afaed61e20",
+   "patch": "files/14_event_race.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/15_cutscene_star_spawn.m64",
+   "base_sha256": "71c4a475fe04990b8b958e6759140aebbe827a2948350e6ec6b5999c002b87cb",
+   "target_sha256": "5645fbdb69beb7fd646e6271c8e828e4cae336484a9f67fb6068c5652013db88",
+   "patch": "files/15_cutscene_star_spawn.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/16_event_boss.m64",
+   "base_sha256": "c23184e6a1326703458c9ee0121ee8a65c4d52bf3db5e559a6aa920bb4cfc1c4",
+   "target_sha256": "2577440f1e5bbb9f179499ae372a7d494d04f74efabc1aeb59e2b92ae32df33e",
+   "patch": "files/16_event_boss.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/17_cutscene_collect_key.m64",
+   "base_sha256": "2a9ca10346ed4c308d13cd172112c4a00d506d21a5ac4ed496335a937030d004",
+   "target_sha256": "97f02ab08d88c15873538a9847932f5477b3db2462923d7135b650fd04ac073c",
+   "patch": "files/17_cutscene_collect_key.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/18_event_endless_stairs.m64",
+   "base_sha256": "326927e28951341c67c84a20b0513bcdb04f6e3a3e8f6531e5da733e3c404af4",
+   "target_sha256": "809baa2babe5493134352c5f7da9836cd9e995a1cb26da5ab918d5c1ea326cae",
+   "patch": "files/18_event_endless_stairs.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/19_level_boss_koopa_final.m64",
+   "base_sha256": "8caac9541bfeb3fad1580b33c70421f5e12bed217beca14da475ec8b06df8c69",
+   "target_sha256": "65e20e0e7e2818c0f30172e2e7e4d4d0e6c149fb8c79a9ee844c487cf18bafc5",
+   "patch": "files/19_level_boss_koopa_final.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/1A_cutscene_credits.m64",
+   "base_sha256": "594370458b278ea2be2ba668c5c817adacdb475c2ba1232ecd326c083d813b79",
+   "target_sha256": "12725649ba71575ab1f47d8a1a5df779bd753ce5deb95c106f4d37dcb52eb0d7",
+   "patch": "files/1A_cutscene_credits.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/1B_event_solve_puzzle.m64",
+   "base_sha256": "2d71144482db31a471aee277c9025205251c38dadeb6427f9646a15de2f6d0e0",
+   "target_sha256": "c47a435e9b14ddf97a5b0c48883a394ed6125fb8427510e92204a345905a9333",
+   "patch": "files/1B_event_solve_puzzle.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/1C_event_toad_message.m64",
+   "base_sha256": "e058e562b0f33f2acd1a27d5bb53843cf1908bbc9877ff8bf37c6cd7bec2893c",
+   "target_sha256": "1e4b308947f92ab6b73e9dbdb7b0dcd722c9798c558e72e6b44206e2913ae5f9",
+   "patch": "files/1C_event_toad_message.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/1D_event_peach_message.m64",
+   "base_sha256": "c38010622f1deeac3422d7869ba727fb6c58bd35930f8bb666be3f68c87ab1c0",
+   "target_sha256": "41e35e626c2995154602e5c9c64695ef00e7bd95fe5038dec14cce3bbfafcbd0",
+   "patch": "files/1D_event_peach_message.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/1E_cutscene_intro.m64",
+   "base_sha256": "e6361c5a95603c3eb0c56db8ced00df882667cf4782095ee4f9b2834ca487fc5",
+   "target_sha256": "2307f6867ffb25bb3b7d02c0efc0e3d0181aa95b2b2c3319d8838b0e238c3ded",
+   "patch": "files/1E_cutscene_intro.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/1F_cutscene_victory.m64",
+   "base_sha256": "c51053f714268ccc8a7d123996772f5448fb354b3b2f4aad10b24e5bb1fb6410",
+   "target_sha256": "08a9f85c4f494bd287edc85ae64e0f93542ae39d44900b880ec7332c95c9cc6c",
+   "patch": "files/1F_cutscene_victory.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/20_cutscene_ending.m64",
+   "base_sha256": "c453f84667930029e2847c8239ddad85ac43e3f2408809ac727ae8cc6df9e1b4",
+   "target_sha256": "2bb136a01ff60c99382eefdef593de2dc31f2cdc9a3db12d1fa93698fdd82bde",
+   "patch": "files/20_cutscene_ending.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/21_menu_file_select.m64",
+   "base_sha256": "ce58182ee1cfa1b607caa98eea611f3376634fc52673ce9321e74823c3f7fe74",
+   "target_sha256": "6a7357a5b803989414881eb8ac339b1a53b1a149fd738350b23633385e901630",
+   "patch": "files/21_menu_file_select.m64.patch"
+  },
+  {
+   "name": "sound/sequences/eu/22_cutscene_lakitu.m64",
+   "base_sha256": "0cdbf139319e4c7e92bac879e307b12f4a69a41844d37a15c89b43041b5465d2",
+   "target_sha256": "81bf80b6557e0328917c506f77e31812e1b4dc014971580c498632e9cc67fe8e",
+   "patch": "files/22_cutscene_lakitu.m64.patch"
+  },
+  {
+   "name": "levels/intro/2_eu_copyright.rgba16.png",
+   "base_sha256": "6239975a019e8decb739d2c610ffae7d9640bd85f3642bc1e9b2fce061c8da87",
+   "target_sha256": "5a72f5cd4d1368ba2888ebbf83d7b0463bcf1ec03dfd391554a9a604c4dc1088",
+   "patch": "files/2_copyright.rgba16.png.patch"
+  },
+  {
+   "name": "levels/intro/3_eu_tm.rgba16.png",
+   "base_sha256": "fcf9152e3efd9e98a10c42e5a7e9926bef8957e2b8e0431c12891d4d7564ebaa",
+   "target_sha256": "c314a413d96656970179911b3c52ced2475cd85a8dbada55f17907739e2b430a",
+   "patch": "files/3_tm.rgba16.png.patch"
+  },
+  {
+   "name": "levels/ending/cake_eu.png",
+   "base_sha256": "7cc1e8be10739ea8c2c324944f5b22321e43e623caa24b21a5d1dec282c1dd0b",
+   "target_sha256": "81926e9993f17202dbabddd99a855b6cacfd4cd3506e04f137213d4f153d4563",
+   "patch": "files/cake.png.patch",
+   "aux": [
+    {
+     "name": "levels/ending/eu_026000.rgba16.png",
+     "sha256": "f6800a80a915dc310187125a87eee35b31ac540215f7bdfa7e0324c2ed51298b",
+     "scale_x": 1.29,
+     "scale_y": 1.0,
+     "dx": 115,
+     "dy": 194,
+     "ink_only": true
+    }
+   ]
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F00.ia1.png",
+   "base_sha256": "6f5b884f01cafc856fae3ecaa08ad2859ba9a4b58cc925026d9e13ea25e998d3",
+   "target_sha256": "24df0197ea6d4ba3872b499a4076321d3ed5451b5245407d7b5a39ee8dcf0b47",
+   "patch": "files/font_graphics.05900.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F10.ia1.png",
+   "base_sha256": "c688e0fe379b7250bdc6125eb5bcca75f48dac0a34379190f120c1b8ae4a7981",
+   "target_sha256": "6f01c9d3257f1b5703be1c085f8002d016bf8067136b7c7ce8cd625609c14ccc",
+   "patch": "files/font_graphics.05940.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F20.ia1.png",
+   "base_sha256": "7fe571358ba824a1cecde14fa067b159b186e28d407fda1c4f3ed01585061055",
+   "target_sha256": "a1876176cd652a8652e7393c3833830fb0ba86a4f34aa25e271508f0d24e6cda",
+   "patch": "files/font_graphics.05980.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F30.ia1.png",
+   "base_sha256": "de7fc79493a95285d9040511466d9b4bf1393659085cbe0e5db7c2ca37759823",
+   "target_sha256": "4b7982a7de3c6ffacfedac6df900d14b468a96b8f13219569eb394c1f43828d7",
+   "patch": "files/font_graphics.059C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F40.ia1.png",
+   "base_sha256": "ad69e65c7acc2faa39c362e4ab8d50e1261196b0063505d592ca04150034ad8c",
+   "target_sha256": "fa5e1cfaa15be3d284cb96d006d2b9d9b0419229499257678e09d3a852124362",
+   "patch": "files/font_graphics.05A00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F50.ia1.png",
+   "base_sha256": "40c2351c6a288b2ab30fd37cb4a809dad465d9f255ae7f28b37116e9de14a102",
+   "target_sha256": "2fedf10288fadd76e4b69a1b3fc6f685d2cde121cc593eb6724ac85c0c654e53",
+   "patch": "files/font_graphics.05A40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F60.ia1.png",
+   "base_sha256": "cb73821618b0a8ca0cd25e9e072499f640f77c8d5505d6501ce3b244a73fac7d",
+   "target_sha256": "eae1f49d7e9231146f836bdffac0e8d5e062abe6f18d2273bd3ec594c1c49e04",
+   "patch": "files/font_graphics.05A80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F70.ia1.png",
+   "base_sha256": "fafabba704b30430fe5a7129d82e5a042a5acc550be522e745b73009f59d2a5a",
+   "target_sha256": "a68542a7795a08261ab56810a3da8e602656690ebb6c60f478858ae307d450c0",
+   "patch": "files/font_graphics.05AC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F80.ia1.png",
+   "base_sha256": "cb453c73d3c145edbcc262c63ef7964a592fb8abda4746e98eb0f2bdcaa12264",
+   "target_sha256": "8733a7c3a10b6798b58c9797eaf9dedd12d8513971bf3dc5fb6d4c400fda938e",
+   "patch": "files/font_graphics.05B00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05F90.ia1.png",
+   "base_sha256": "7b357860ea6329f194316db506555fd23bb45bdd4d030fce07aafab1f40f6eb2",
+   "target_sha256": "84afdc24ec3a4f86bcd7dbe16e32fbd1f87a9d2f7bb05c49fc5a421f1d8bfb28",
+   "patch": "files/font_graphics.05B40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05FA0.ia1.png",
+   "base_sha256": "34604b33f8316ba7b31f5ae475120fb1aec97c46ec83f7bb6dbbb86996965fbe",
+   "target_sha256": "050392337baf0db3f2ccd92ce4a1b231890c64d198a5499c56c8bfd407e77e19",
+   "patch": "files/font_graphics.05B80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05FB0.ia1.png",
+   "base_sha256": "63ba1780570a602575c843683b2995bf393c5e275c50699a194547599f11ed08",
+   "target_sha256": "3c3c411bee5c9031c8e00bc918780f653b1f34abb6233fb5ab4e9137475c9e3b",
+   "patch": "files/font_graphics.05BC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05FC0.ia1.png",
+   "base_sha256": "324f4e990b9a3241c3fc7b40530a1c63b7de41e6a25e844a3012d0a920d6ff5e",
+   "target_sha256": "5e1aed100313654f835d63fa084c7c0afb8f987e336d13af011b12a8b400f014",
+   "patch": "files/font_graphics.05C00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05FD0.ia1.png",
+   "base_sha256": "f5f115d696441e19b0d04ac0907e23db48c17192aa00fc5a6d45121473eae8f8",
+   "target_sha256": "73fc8ecbdf993c75039ad3646857403ba36d8b0d94f49c70e583263343759e6c",
+   "patch": "files/font_graphics.05C40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05FE0.ia1.png",
+   "base_sha256": "c06a86a80f8d1bbde90d6b24d3733d089ab9d39e99657890a6afda81dc62aec4",
+   "target_sha256": "e377c38bbf6c9757b56ea1955841969593fc01b67074c0ab2910ead81b4fea3a",
+   "patch": "files/font_graphics.05C80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.05FF0.ia1.png",
+   "base_sha256": "d197600330a13369d222194bdebd54e37858ed6fea400df96285d7ddf4989fee",
+   "target_sha256": "ea0e13cae768ba0638b0b12cb96562874d53c4786fc464ef59b72f223dd128c9",
+   "patch": "files/font_graphics.05CC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06000.ia1.png",
+   "base_sha256": "258b65143afe10690b780c4e128e59fbe44e5a7e62c6b84db61fae0989214d3a",
+   "target_sha256": "396f2092ccf3e545a03c4e7db7ccb76bf8a1726d612b24d1a11fa0f95d90f5ce",
+   "patch": "files/font_graphics.05D00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06010.ia1.png",
+   "base_sha256": "89035a52296afe604e8a3b6849efbc3fec030f509d8b4a28487e09751423e1a5",
+   "target_sha256": "445188f5ba1e3b0bb3548139b20c7971a347c5cd2880ebba02402e8239b6f3a2",
+   "patch": "files/font_graphics.05D40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06020.ia1.png",
+   "base_sha256": "df267ea4fe05495afbfb631d87662c6b46d4b19df5875770469b20b80557c431",
+   "target_sha256": "c1943ca4936c7ad86f15fc8315036c163c911cd19ab1f1793eac532dffbf5627",
+   "patch": "files/font_graphics.05D80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06030.ia1.png",
+   "base_sha256": "8b5563b898675186d1bea8f3845c01b72ba04d74f8712a801424634983249769",
+   "target_sha256": "96a9c0f260181739417fda212c4d46d59c0c9afd58381fb929bcdb597df897c3",
+   "patch": "files/font_graphics.05DC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06040.ia1.png",
+   "base_sha256": "1c4d36d29bf8bd38e1df4668e66efe93afab17322137ccd1d7ad77ea7a9b291a",
+   "target_sha256": "7a9d6638dcdbfcb38bb9e46daecf4ca591453329adeeec1023466b175b333c88",
+   "patch": "files/font_graphics.05E00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06050.ia1.png",
+   "base_sha256": "224efcca88dfd7435fecb91db4d391cded65551d7acf443b8987e444ffb8aabf",
+   "target_sha256": "a2d5dbe2015534c14b27d869b3e269c96e4502d2b36fecd9e9cda89ffddf16fe",
+   "patch": "files/font_graphics.05E40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06060.ia1.png",
+   "base_sha256": "8264ebc873fa955720609afecbc6fa202aaa05b9af53e5f0ca243c0898986e49",
+   "target_sha256": "c2a197e56645038c1d665a07c9a5236e9189b9278b424d442b8a0e5c23cb7619",
+   "patch": "files/font_graphics.05E80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06070.ia1.png",
+   "base_sha256": "fa3857ec22c868f4ed67f7ca6c58cc97ec4747e157636348688a6ff9227845cc",
+   "target_sha256": "814f867e694edf8f05173e4e5a964babba79d80051e22520f24dcde09da35b9d",
+   "patch": "files/font_graphics.05EC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06080.ia1.png",
+   "base_sha256": "19bae52b0d56a6d165902a28e7ea779a0e13d70b4a77e49025d8cbe9c049cc1f",
+   "target_sha256": "1eae4990416b7f6adc08f84f40d08d37932ac3d2ced8f7ba95debd3bd5ea7f20",
+   "patch": "files/font_graphics.05F00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06090.ia1.png",
+   "base_sha256": "d30e655d1c656567bf6626b4544f7c1f73b9822b39bf0be98bf30e878e1954ff",
+   "target_sha256": "8927a4e35ce04bb49ad1b7f1f957a960e592e5c8b532e4d23c755931648f0a37",
+   "patch": "files/font_graphics.05F40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.060A0.ia1.png",
+   "base_sha256": "9a18ad69e9712d4c15b12b21c8525cb2e6bcefff6eac86954f60aeed109d1247",
+   "target_sha256": "ac4d58cead07315b684a62ae1329f6bdd5a1da3fff910046fb9292a05728d919",
+   "patch": "files/font_graphics.05F80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.060B0.ia1.png",
+   "base_sha256": "a3d3ec8c777587871c67fde36423b87b42b70dca349bc479683abc7bbf180db8",
+   "target_sha256": "706e430f48643f8e1bbb012dff16c99c58d3c13194aae700b7f5fd9b56195dab",
+   "patch": "files/font_graphics.05FC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.060C0.ia1.png",
+   "base_sha256": "deb58c05552d98951661f57286e1b932976f55ca4d1a4f72c7dc271e75f04752",
+   "target_sha256": "64fbaa8f478dd80a7f15cfd48a16b485ba5cfce2b578e853a68b803f35b19b72",
+   "patch": "files/font_graphics.06000.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.060D0.ia1.png",
+   "base_sha256": "b5d3dfabc7f6fa0d68912f0de8f73050be3e8026b5dbc1cd6e3f3b93ed76f3db",
+   "target_sha256": "a1da43da3a62aed33ec5ed74b6b71df91cb99c461a18b86ec31b337ab7d77bb3",
+   "patch": "files/font_graphics.06040.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.060E0.ia1.png",
+   "base_sha256": "106b7f294c30edb6f9936035c99f0ea2094f8abfcf1900e037bd645de481cb12",
+   "target_sha256": "538ba70d6ecb19486d8d3138c3eb5746f1d300bd316f1071318c3a57421dda9c",
+   "patch": "files/font_graphics.06080.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.060F0.ia1.png",
+   "base_sha256": "5ea8f83d32c0fa5c0cfc8b0b5366ae04cb446693852dfcf49bf5b7a925432a28",
+   "target_sha256": "c963c0e1f7379bc914767ec04d286f50621f763041a2aed65dec64ef6d594bab",
+   "patch": "files/font_graphics.060C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06100.ia1.png",
+   "base_sha256": "3352791a9ca3b9b6a2b2d1fcce8f5e205886a9f2368c4c69409b54d038908393",
+   "target_sha256": "d1b3e8895aaf49faf8d6e2f94ef484884e62b4d70166a51dd09a697b7353ae95",
+   "patch": "files/font_graphics.06100.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06110.ia1.png",
+   "base_sha256": "40e05db04f7de9b7722e238aed61fb651d4df141e0c22cd6f09ad380db2fef4c",
+   "target_sha256": "4c41950d490f86f5dced5b85d42a946756c3cedaf2bc6ac35d35efd0097a1970",
+   "patch": "files/font_graphics.06140.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06120.ia1.png",
+   "base_sha256": "2f1b9511e8e97705c2f1a7a2ed1bc65833fc2586af7cd45be8c33db38e857ce4",
+   "target_sha256": "7638be81fcb149695ba32e6e153179234846517b12d6afcb3cdb0a5b64febd25",
+   "patch": "files/font_graphics.06180.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06130.ia1.png",
+   "base_sha256": "1ff91e327015ac6753746a7f71042b511864d218e4583932a4a70c997be99691",
+   "target_sha256": "98c4da41af5fb736cbe6f8a7ff1032612dce516ca73a4a93c49f7ba7263e766d",
+   "patch": "files/font_graphics.061C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06140.ia1.png",
+   "base_sha256": "3aca2c79bd1c113766c2de93e81550ea6e999be99c27a1261f7dbb7f15d79352",
+   "target_sha256": "09cc7c8f7aa944bf26a15779a5cc53052c6c17b3e7bcee114eb5aaec4b358430",
+   "patch": "files/font_graphics.06200.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06150.ia1.png",
+   "base_sha256": "fc0ec2f1beaf0193784f89a3495408475ed15748c2e9b1797d393cee1062d6bd",
+   "target_sha256": "747ae062cba89d7fd8bd4c3bda6953bb414d26a826908949cbf842a19a537b16",
+   "patch": "files/font_graphics.06240.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06160.ia1.png",
+   "base_sha256": "37f56481a61adf6c7b47dc03b71b8782efbfeaf45397ec49589666b7ed828377",
+   "target_sha256": "3125101ad3d23fcf1c5bf81fa5d24e02ddc95a98b6d79373c3473e7ae3f781ec",
+   "patch": "files/font_graphics.06280.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06170.ia1.png",
+   "base_sha256": "a0f48fda1c75a05632dd8191004f7236c18a2d369fb716edfcf3006675e0fa09",
+   "target_sha256": "f6ecfeb687fa1651272b1873af92ab13c635f75346406b33c47c267adb160c8f",
+   "patch": "files/font_graphics.062C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06180.ia1.png",
+   "base_sha256": "23165491493991c8d650019fd600af04757130e671432522d9934424c02bb8e8",
+   "target_sha256": "f24a326767aa8026911a3d7ab35b020fec843fe2f66fad8bddad64d0511e4ab8",
+   "patch": "files/font_graphics.06300.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06190.ia1.png",
+   "base_sha256": "a42729ee6f5051eb418204857f508ad666b734e3ff1aa4fbdd871a47ad36ab7b",
+   "target_sha256": "8bad4a25b5f724e497677372033e9bedaa2288570c886810a9e0d04a2d9bf9c7",
+   "patch": "files/font_graphics.06340.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.061A0.ia1.png",
+   "base_sha256": "0f9c51359dd86e68f8b3be86f538a48e22002195a7d406eb1bbcd9829ee5f2d7",
+   "target_sha256": "b1cc4737cb46af04c84cbf4c94a263ff411734a721835f2f8955e4e12c54e899",
+   "patch": "files/font_graphics.06380.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.061B0.ia1.png",
+   "base_sha256": "d35e79549df59877140a121383ef4d1e09c570262577d3e5548c533cfdbb08fc",
+   "target_sha256": "0082bb555aaf5b60aec5a900241f0ca3c934b40e129c9174a8a7f9562750dc08",
+   "patch": "files/font_graphics.063C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.061C0.ia1.png",
+   "base_sha256": "4b6f79b1f3e9c39c47218d458de58c5dab521249645dad9fbb79b7eedfa208db",
+   "target_sha256": "a1154d55b9dc1cc1f094299d5672db4443e346767434d0bb8817a2206fc76667",
+   "patch": "files/font_graphics.06400.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.061D0.ia1.png",
+   "base_sha256": "0f35f96e2b8d80e82e42434dbce6017c318038dd4cec314ab133b4545c36a1b4",
+   "target_sha256": "03a09c27e4e69a3864b7ffdd80bc180de07723483fb47daac9fac9ad830ae7dc",
+   "patch": "files/font_graphics.06440.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.061E0.ia1.png",
+   "base_sha256": "1f171ca14772e7b9781d800d1448a72bbcc048a29406240c4247d44c1724490c",
+   "target_sha256": "0b5d85d5cf28a30af0db56214f4dede1adfbf81db9aa3fcda25772c7b6641bcf",
+   "patch": "files/font_graphics.06480.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.061F0.ia1.png",
+   "base_sha256": "e4a9ca53dc75000285ec116019fb9e4855b2612e95da17e7a1e4c54e7b859eb6",
+   "target_sha256": "ef08cdd5e875bfcdada133f189bb8f346e58e5b775e3a488b28dba0a5ab81f6f",
+   "patch": "files/font_graphics.064C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06200.ia1.png",
+   "base_sha256": "538c6048a4a07eea3fff7d5f02e07f41fe91ec5fd81797ccb8676d403586480c",
+   "target_sha256": "ff416eec2ce3776a9b47f00cedbea09553b7cf4f0d0b319b207f8495f15b5bf5",
+   "patch": "files/font_graphics.06500.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06210.ia1.png",
+   "base_sha256": "ef1ed475b9afaa82d5d37b1b2f7a0d42b2699186f39c186ad105954a62d64bbe",
+   "target_sha256": "33fc8dc9964701b743cce776cd3b7ee29b24e613900df78dc8cb1e7981c92264",
+   "patch": "files/font_graphics.06540.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06220.ia1.png",
+   "base_sha256": "4688c137680f4bd6c4097a0820c6821f1b32a9a11542036f93bfbe65e40dfff6",
+   "target_sha256": "197efb09da8b4b9f77bbc1b413aa094ae5a6a67f3fb2b8c5c3b3aa6d593ac269",
+   "patch": "files/font_graphics.06580.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06230.ia1.png",
+   "base_sha256": "f47cbe1431a5314f119858491530634f97b9016eab3632395eecaa580708ea50",
+   "target_sha256": "315ef738c9728fce21bae9e92bb8423c65a75caf830f8d80610b6d6524341e5c",
+   "patch": "files/font_graphics.065C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06240.ia1.png",
+   "base_sha256": "95c5f3b12f02160e1e693ca22d76f607796b036d31640ad07402c172f77116a8",
+   "target_sha256": "3e870c0e2f9a375a087b1d96923af8715b4200e632d2ee2e8d9b7e97a2f0af7e",
+   "patch": "files/font_graphics.06600.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06250.ia1.png",
+   "base_sha256": "309061799e6583b6a7f87a45bfeb6e9d5008318d57b9aa31907cf5b7d76b65e8",
+   "target_sha256": "d34bba6a580467d075ecff13fe47d3c89c99339d76479986b8957fcb1591e18c",
+   "patch": "files/font_graphics.06640.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06260.ia1.png",
+   "base_sha256": "bc365562c0c0dce6577816c3a74483be0284ebcd73189a9ead2e6eba04aeeb2d",
+   "target_sha256": "85d07b4f8f55f811fdb0120367e4956578ecc806ffcf39a8b8db482a8d3c7070",
+   "patch": "files/font_graphics.06680.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06270.ia1.png",
+   "base_sha256": "c7d90bb47f58937053f2958cceb112dfe92381e0fdc543017bb0b5ef2ee0b24a",
+   "target_sha256": "3bb2be5c837c059c92ab4bb36d8d71e9c32caeb31951ee4f17597b9396e67767",
+   "patch": "files/font_graphics.066C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06280.ia1.png",
+   "base_sha256": "635bb712141c8b4636a5f3bb1adfe858285325f569f56f2ede05a0e0ebd954d6",
+   "target_sha256": "ababe1ef17d4a2cb5844d0c8f0ba10dff22539d9355d47019e6941295385dd69",
+   "patch": "files/font_graphics.06700.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06290.ia1.png",
+   "base_sha256": "0b2581a1c862820dd062d5b54676c6d0557c007b0921d48d456517eabfc5a293",
+   "target_sha256": "76230cdbd8b2a28e1b7b45e99a751dc645a78e8394b0a2d44e2cf0f502cec0cc",
+   "patch": "files/font_graphics.06740.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.062A0.ia1.png",
+   "base_sha256": "5ff6d63a436f4ee90ab0fb9f73b53341926de057eb9034783e6c8bbdd41c334a",
+   "target_sha256": "e5498cbac39ae2331c0e86805524dc948c6590937c46d362247a85d477f2366c",
+   "patch": "files/font_graphics.06780.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.062B0.ia1.png",
+   "base_sha256": "bf8e9eb629a7f0996448411deb7f7b4dbadad31c6cff3e2c71579428b5a7da4f",
+   "target_sha256": "e87837386323170abfe21bcebc226b4bb333769cf8f8daf2f82e6867e16466ef",
+   "patch": "files/font_graphics.067C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.062C0.ia1.png",
+   "base_sha256": "86bcec6ba1ed4e663879eaec2cee998c27374f63cc57d556c65fbcc3e8bf04be",
+   "target_sha256": "c02ddc9c367955305f9e63552450aca5fdd456c963b0f5df9919a2272f06df9e",
+   "patch": "files/font_graphics.06800.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.062D0.ia1.png",
+   "base_sha256": "30d3122e38e8fe8af345cd38125361375e7509ebaf8eb3c47716f3b442e89be4",
+   "target_sha256": "cf9ddc22d127274740dfa748479f50fdfd5448752b7f8ebcdeddf1dd235faa9d",
+   "patch": "files/font_graphics.06840.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.062E0.ia1.png",
+   "base_sha256": "46a94cd24e428f472d11d12097fa96749a7c7dbc8f59d90ec3a0e7308ace680d",
+   "target_sha256": "d27967d9b7d24b82da664627ee2459d6ce4830fb594363984910d3062463cd00",
+   "patch": "files/font_graphics.06880.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06300.ia1.png",
+   "base_sha256": "ecad46bf7e1561b3a647a5328dcd6d9e18658bbf60127d3d648be3fce7475aa4",
+   "target_sha256": "5cb9330aa6527ab5818d64e78994918e0a34baf93a59db5b1461122137c1a5a9",
+   "patch": "files/font_graphics.068C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06310.ia1.png",
+   "base_sha256": "c3d7991c6662177b4d60c0f01ce7f5bc5a3e333935418215a5a930a1c1e26389",
+   "target_sha256": "2050624541848001e88a6ee7589f55bfb7d9e2de7b68c6deccb47897f6fd0f2c",
+   "patch": "files/font_graphics.06900.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06320.ia1.png",
+   "base_sha256": "9f5fd6968bac4fe2ff04bcfc2f5ee520e2a15c442ef2e69219191e266e9cd466",
+   "target_sha256": "656ebbb821dde89e24c2c2d301bdf9b8841fda19ab3c76eca106d21482ef92cb",
+   "patch": "files/font_graphics.06940.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06330.ia1.png",
+   "base_sha256": "f3087a4ab7166773ef5b90fe4645eafbfbaa6be8019f4f22f1f505d86931c6f3",
+   "target_sha256": "e7802915190dd57d9040d2706c8c92f7d3d4f08b1f8c19e72a752bfc869d1da9",
+   "patch": "files/font_graphics.06980.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06340.ia1.png",
+   "base_sha256": "8a2ef511e43f6f48d51df7c2d70088a145463262e225053f3a69a3a97dedff34",
+   "target_sha256": "857f0c3941ad5ef5ae2a3f0530ecc53cd8b526e9b78b1e05ac3edd13646b9b92",
+   "patch": "files/font_graphics.069C0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06350.ia1.png",
+   "base_sha256": "62411eff99806ca1293c720951431b051abadbe1324483cd0194883a4008e93e",
+   "target_sha256": "abddd08ffcb7a375fe04671995282d2cfe246fafd44d14af9836766b1b00c71e",
+   "patch": "files/font_graphics.06A00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06360.ia1.png",
+   "base_sha256": "d4fbd237efe9a358955523e49e247973277e682f744fc2dcaa691f1d1606e8ef",
+   "target_sha256": "f4f086046cd2590a1bec8329315c2d8e7f4f5134f96487dc86e8f47f00e5d684",
+   "patch": "files/font_graphics.06A40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06370.ia1.png",
+   "base_sha256": "d6c497665ce08eee85a6c3eff6295c9223927c02cda0e49b57f7673658073550",
+   "target_sha256": "7290190b7571cf33aaaf3c6f96d8740fda2ff042d88011f09b0eb70f8991204c",
+   "patch": "files/font_graphics.06A80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06380.ia1.png",
+   "base_sha256": "80c47020996710b42806dfbbdfe2ca1c9abdd6bfd7f2b68efce15f1eddf0f0ed",
+   "target_sha256": "2ada1023de5afb883d1716a70cc1dd05109a861921c86f9253b808002b66d71f",
+   "patch": "files/font_graphics.06AC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06390.ia1.png",
+   "base_sha256": "7721edeb2523f6a7cbd5252f6eeb8c1752c10d39dc672afab78decbec2c30d96",
+   "target_sha256": "80d0f703594143befa68445a38d8d83ad715c8d49dde0bd757021da3dd756841",
+   "patch": "files/font_graphics.06B00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.063A0.ia1.png",
+   "base_sha256": "62a71b53a30f41fc67818165ad912f3904136acca28b19009004aa171f55544c",
+   "target_sha256": "d9d65e7d2e478462434333d2a54daf37efdf22a58335f100511e447d44ef5bd4",
+   "patch": "files/font_graphics.06B40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.063B0.ia1.png",
+   "base_sha256": "0acfe7fde49097c8f9dbc7779632e5dc33c1bae4d9f3d70ce6ffb2f4bb9ec733",
+   "target_sha256": "b5b8f58023aa35b73730077119b841489a48e25bc0614b62f414d37796c81efe",
+   "patch": "files/font_graphics.06B80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.063C0.ia1.png",
+   "base_sha256": "64d07767683ec4d3d921006bc4b98aec43b525b9f6be7a1db80e9b8c8e6f262d",
+   "target_sha256": "11cbb2fb2c78b22ae66a31a3408202098a1732fc3cb802afe660ef49c06973ab",
+   "patch": "files/font_graphics.06BC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.063D0.ia1.png",
+   "base_sha256": "6c3d66b6864137c26119e3d1798f259c8c32c8abe6e1c43ba3beb395617ad99d",
+   "target_sha256": "c05b2bacaf58ac69a5f7aa10065eb1809aa7badad2e0c7fcb55f1fb930c2b912",
+   "patch": "files/font_graphics.06C00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.063E0.ia1.png",
+   "base_sha256": "7d5b897a59f94ae90fc69e352cdd10c56c30bdd8a7f9e593e6d46a2171405515",
+   "target_sha256": "ef2e530558332de4a7976b7e2d4599684919afa10b008a758b63fbddbd08d226",
+   "patch": "files/font_graphics.06C40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.063F0.ia1.png",
+   "base_sha256": "baa8c43bf018e7d50105891233dc75a776f25c8b19e09d088ae58a1dc617d9d9",
+   "target_sha256": "ceadd881840c3900e04add4267a836ffbf4305af9ab5b8b9403b5ef42b5031f9",
+   "patch": "files/font_graphics.06C80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06400.ia1.png",
+   "base_sha256": "569846b74a700586e78f7e17e0cd4cec173cb5f2451ae06b60b15ecc3b9bf60b",
+   "target_sha256": "5a26aef65e54c3282becb844a507f248c3155a79cd37dcfdb363e20f9002119a",
+   "patch": "files/font_graphics.06CC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06410.ia1.png",
+   "base_sha256": "b3bebc8f88c9406b1505d258ddcf83958bc14c58da507bdcb4b5e224f047a4c8",
+   "target_sha256": "9df73a71cdd89091dec5ec4839bcee13ef7b5f537c8fbfb65f4a737cf1482752",
+   "patch": "files/font_graphics.06D00.ia4.png.patch",
+   "keep_source": true
+  },
+  {
+   "name": "textures/segment2/font_graphics.06420.ia1.png",
+   "base_sha256": "6c24c4a266433fb0e22bbb7d702d1b71a52d79f491cfbd131c278926567644d6",
+   "target_sha256": "381a34778a0265f8160d92085f6b59f63511665eda51143a0a8caa85a0f3a9fe",
+   "patch": "files/font_graphics.06D40.ia4.png.patch",
+   "keep_source": true
+  },
+  {
+   "name": "textures/segment2/font_graphics.062F0.ia1.png",
+   "base_sha256": "e0fd482f27cf7efc99c8acc22b9add4a2ed126a596cb7741bca9484de621f263",
+   "target_sha256": "de7c8c3220137e0559e70fffc6efa91778baaa82d3582479b7ad66a35f2396c5",
+   "patch": "files/font_graphics.06D80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06430.ia1.png",
+   "base_sha256": "3762ec19b225a5844706c1ed1636d27d03048d081d3831faa6e37eadf7458df9",
+   "target_sha256": "be8f7b26c72ffe37b56cdc0ef3761aa19ce2d17298c5b1a96428f8ee626ea644",
+   "patch": "files/font_graphics.06DC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06440.ia1.png",
+   "base_sha256": "f9c6c869d32c052bd40cdf773e35b394cb5601f488c7d96a1bd43eccba9b4204",
+   "target_sha256": "95a671e872e5e9b2f0403e41918dc5be5736230898173616fa78ecbd206819e1",
+   "patch": "files/font_graphics.06E00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06450.ia1.png",
+   "base_sha256": "cd0d3ab64966801de61d67fb87d907b477808b375ee5b52b20902b8025713662",
+   "target_sha256": "dade16716bf359fc47a16f51d1560c41f6f84d85022abab30438c1a5213bb7c9",
+   "patch": "files/font_graphics.06E40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06460.ia1.png",
+   "base_sha256": "fff91900143acd271d54b21ae7829b62f8d3aca03605b761f24586fb5707573e",
+   "target_sha256": "b0b82a8599e170cb0a51e366c017c88f919be25825b11bfa9455e663446f0678",
+   "patch": "files/font_graphics.06E80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06470.ia1.png",
+   "base_sha256": "c689508936c59976c3e65e760871a7bebb125fbe3a6ff937e4ed1f663658d30f",
+   "target_sha256": "a6305981a1da3fcf7feef7c8120901db48255101774dcd937dc06d5ee6b23584",
+   "patch": "files/font_graphics.06EC0.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06480.ia1.png",
+   "base_sha256": "7df94e33b56a1a6c6be8199a77473a557d95119c6f3e4f6f637904d8272e7741",
+   "target_sha256": "070dc4b6885efc2bacb4ccd4edfe63e69d9fa3fa1f46f18b1d75efe43f4cf176",
+   "patch": "files/font_graphics.06F00.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.06490.ia1.png",
+   "base_sha256": "c596ff4c8c24945717dbfeb222e6592097e1c638deaed6e61dcecce1ea68a789",
+   "target_sha256": "837b7ef3d74093367490a33d6dc12ec988e9b1cb5f517d04554fd4b791c67efd",
+   "patch": "files/font_graphics.06F40.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.064A0.ia1.png",
+   "base_sha256": "d9bc3293a4efee713e8fbdab799970bb96e9d30641ab3e2565e9e2cc1e9174a2",
+   "target_sha256": "01bdf000bed29314b4f72919cb6e7905dca09d3df7a70f422bc29ddddfdd4fa7",
+   "patch": "files/font_graphics.06F80.ia4.png.patch"
+  },
+  {
+   "name": "textures/segment2/font_graphics.064B0.ia1.png",
+   "base_sha256": "f48515e102cac19f0d0b3bdd925ae3975b0b02cef2eb8343efbb41a8ce32882c",
+   "target_sha256": "fa8b448e6615b22f6d523449f7ed8ec1a900bf4793084c650244b702f1a2aa98",
+   "patch": "files/font_graphics.06FC0.ia4.png.patch"
+  },
+  {
+   "name": "levels/menu/main_menu_seg7_eu.0BDA0.rgba16.png",
+   "base_sha256": "eb904efa8fab93527ae42e8d1ff26517d4d51796b65287217e1d73056f28020e",
+   "target_sha256": "0f374d484195864e3e97c699c34f114a0a156b1431bfa60cd4fe4322e2b2e96b",
+   "patch": "files/main_menu_seg7.0D1A8.rgba16.png.patch"
+  },
+  {
+   "name": "levels/menu/main_menu_seg7_eu.0EDA0.rgba16.png",
+   "base_sha256": "77e5ef7b0e2934220e0bbdc7ddecd7adab26c3caf1d05b52a2d977567b9d81d6",
+   "target_sha256": "448ab01c60371726fee3d5c621665b21ee27ef6051c4b0d1c15c396ccaec61bf",
+   "patch": "files/main_menu_seg7.0E1A8.rgba16.png.patch"
+  },
+  {
+   "name": "levels/menu/main_menu_seg7_eu.0AF80.ia8.png",
+   "base_sha256": "97f1c4bdcb7e98bc7f57fd57b9ea8727b6b4f7ec359267243a48db2d0e2be310",
+   "target_sha256": "ff8b1e8118a3fda554459f2b920f628c484564ec38336030a236636ccfc775ee",
+   "patch": "files/main_menu_seg7_us.0AF80.ia8.png.patch"
+  },
+  {
+   "name": "levels/menu/main_menu_seg7_eu.0B640.ia8.png",
+   "base_sha256": "e63d56933e4004302656111003c16aa040b9511b3a96994280f4570ee338f513",
+   "target_sha256": "7563d2b7ac35c02bf474175004aaaabfc33a619ad48cd1c4a38e972dcc31bcb4",
+   "patch": "files/main_menu_seg7_us.0B640.ia8.png.patch"
+  },
+  {
+   "name": "levels/menu/main_menu_seg7_eu.0B680.ia8.png",
+   "base_sha256": "e119378b141aeddc5b8c23678eb5e334e08811084b0ab717d0c350f99918ef8c",
+   "target_sha256": "80db31d6e42f5c4a1299f4f0807d0aa08cb107e5c3c7e5b89c308b283d7d2f92",
+   "patch": "files/main_menu_seg7_us.0B680.ia8.png.patch"
+  }
+ ],
+ "add": [
+  {
+   "name": "assets/demos/bitdw.bin",
+   "target_sha256": "947ded6c977672521a0ad7d3c51c3c41b72aee8df1c5c75452b64800a96da707",
+   "file": "add/bitdw.bin.lzma",
+   "compression": "lzma1"
+  }
+ ],
+ "delete": [
+  {
+   "name": "levels/ending/eu_026000.rgba16.png",
+   "base_sha256": "f6800a80a915dc310187125a87eee35b31ac540215f7bdfa7e0324c2ed51298b"
+  }
+ ]
+}
