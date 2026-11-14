@@ -15,6 +15,8 @@ Pngs are either the same just redecoded or have small differences
 sm64 files have differences in timing etc idk how different it actually sounds in practice (this was what ai told me)
 the bitdw.bin file is a demo file so just a sequences of button inputs for one of the Demos that plays when waiting on the title screen (based on ai this should be for bowser in the fire sea) its missing in the EU build
 
+if you wanna read the file list download the readme or open it in edit mode idk why github just ingnores the spaces
+
 Files:
 /sm64/levels/ending/cake_eu.png
 /sm64/levels/ending/eu_026000.rgba16.png
